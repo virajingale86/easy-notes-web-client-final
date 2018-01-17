@@ -11,11 +11,10 @@ import com.example.easynote.service.NotesService;
 import com.example.easynotes.repository.NoteRepository;
 
 @SpringBootApplication
-@EnableDiscoveryClient
 public class EasyNotesWebApplication {
 
 	
-	public static final String NOTES_SERVICE_URL = "http://NOTES-MICROSERVICE";
+	public static final String NOTES_SERVICE_URL = "http://10.0.0.46:2222";
 	
 	public static void main(String[] args) {
 		SpringApplication.run(EasyNotesWebApplication.class, args);
